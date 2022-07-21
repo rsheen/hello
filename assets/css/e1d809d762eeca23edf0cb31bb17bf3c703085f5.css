@@ -88,8 +88,8 @@ a[data-token-index] svg.page {
   .notion-page-content > .notion-collection_view-block > .notion-scroller > div {
     width: 100vw !important;
     /* max-width: unset !important; */
-    padding-right: 10% !important;
-    padding-left: 10% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
 
   /* add padding to banner, but not to image */
@@ -106,8 +106,8 @@ a[data-token-index] svg.page {
   .notion-frame > .notion-scroller > .notion-scroller > .notion-table-view,
   .notion-frame > .notion-scroller > .notion-scroller > .notion-board-view,
   .notion-frame > .notion-scroller > .notion-scroller > .notion-calendar-view {
-    padding-right: 4em !important;
-    padding-left: 4em !important;
+    padding-right: 2em !important;
+    padding-left: 2em !important;
     flex-wrap: wrap
   }
 
