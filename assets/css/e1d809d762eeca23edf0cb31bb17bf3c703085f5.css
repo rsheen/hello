@@ -106,8 +106,8 @@ a[data-token-index] svg.page {
   .notion-frame > .notion-scroller > .notion-scroller > .notion-table-view,
   .notion-frame > .notion-scroller > .notion-scroller > .notion-board-view,
   .notion-frame > .notion-scroller > .notion-scroller > .notion-calendar-view {
-    padding-right: 2em !important;
-    padding-left: 2em !important;
+    padding-right: 4em !important;
+    padding-left: 4em !important;
     flex-wrap: wrap
   }
 
