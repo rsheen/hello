@@ -456,7 +456,7 @@ td, th {
 /* required to correctly highlight the icons within a page/external object
 mention token. */
 .notion-page-mention-token::selection, .notion-external-object-token::selection {
-    background: rgba(46, 170, 220, 0.2)
+    background: rgba(35, 131, 226, 0.14)
     }
 /* ==================================================================== */
 /* Focus Feedback */
@@ -467,10 +467,10 @@ mention token. */
 /* NOTE: do not try to combine these next two rules, if you do, it will
    break the blue focus ring on Safari */
 .notion-focusable-within:focus-within {
-    box-shadow: rgba(46, 170, 220, 0.7) 0 0 0 1px inset, rgba(46, 170, 220, 0.4) 0 0 0 2px !important
+    box-shadow: rgba(35, 131, 226, 0.57) 0 0 0 1px inset, rgba(35, 131, 226, 0.35) 0 0 0 2px !important
     }
 .notion-focusable:focus-visible {
-    box-shadow: rgba(46, 170, 220, 0.7) 0 0 0 1px inset, rgba(46, 170, 220, 0.4) 0 0 0 2px !important
+    box-shadow: rgba(35, 131, 226, 0.57) 0 0 0 1px inset, rgba(35, 131, 226, 0.35) 0 0 0 2px !important
     }
 /* ==================================================================== */
 /* Cursor */
@@ -610,6 +610,17 @@ html.notion-front-page .notion-app-inner {
         -webkit-transform: rotate(360deg) translateZ(0);
         transform: rotate(360deg) translateZ(0);
         }
+    }
+/* ==================================================================== */
+/* Sync spinner.
+/* ==================================================================== */
+.sync-spinner {
+    -webkit-animation: rotate 2500ms linear infinite;
+    animation: rotate 2500ms linear infinite;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    display: block;
+    pointer-events: none
     }
 /* ==================================================================== */
 /* Sidebar loading skeleton shimmer
@@ -980,7 +991,7 @@ table > tr {
     }
 *::selection {
     /* Notion brand blue */
-    background: rgba(45, 170, 219, 0.3)
+    background: rgba(35, 131, 226, 0.28)
     }
 #notion-app b {
     font-weight: 600
@@ -1022,11 +1033,11 @@ table > tr {
 /* Onboarding animations */
 @keyframes pulsing-button-border {
     0% {
-        border-color: rgba(46, 170, 220, 1);
+        border-color: rgba(35, 131, 226, 1);
         } 50% {
-        border-color: rgba(46, 170, 220, 0);
+        border-color: rgba(35, 131, 226, 0);
         } 100% {
-        border-color: rgba(46, 170, 220, 1);
+        border-color: rgba(35, 131, 226, 1);
         }
     }
 @keyframes pulsing-button {
