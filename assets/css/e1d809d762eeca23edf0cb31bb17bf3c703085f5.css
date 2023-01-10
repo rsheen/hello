@@ -77,8 +77,8 @@ a[data-token-index] svg.page {
   .notion-scroller > div > div:not([class]) {
     width: 100% !important;
     max-width: 960px !important;
-    padding-left: 0vw !important;
-    padding-right: 0vw !important;
+    padding-left: 6vw !important;
+    padding-right: 6vw !important;
   }
   
   .notion-scroller > div > div:not([class]) > div:not([class]) > div:not([class]) > div:not([class]), .notion-scroller > div > div:not([class]) > div:not([class]) > div:not([class]) > div:not([class]) > div:not([class]) {
