@@ -81,6 +81,10 @@ a[data-token-index] svg.page {
     padding-right: 6vw !important;
   }
   
+  .notion-record-icon notranslate{
+    padding-bottom: 20pt;
+  }
+  
   .notion-scroller > div > div:not([class]) > div:not([class]) > div:not([class]) > div:not([class]), .notion-scroller > div > div:not([class]) > div:not([class]) > div:not([class]) > div:not([class]) > div:not([class]) {
     padding-left: 0 !important;
     padding-right: 0 !important;
