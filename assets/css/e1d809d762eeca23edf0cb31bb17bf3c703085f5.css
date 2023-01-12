@@ -82,7 +82,7 @@ a[data-token-index] svg.page {
   }
   
   .header-emoji {
-    margin-bottom: 32pt !important;
+    margin-bottom: 24pt !important;
   }
   
   .notion-scroller > div > div:not([class]) > div:not([class]) > div:not([class]) > div:not([class]), .notion-scroller > div > div:not([class]) > div:not([class]) > div:not([class]) > div:not([class]) > div:not([class]) {
